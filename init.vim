@@ -38,6 +38,7 @@ Plug 'machakann/vim-sandwich'                           " make sandwiches
 Plug 'christoomey/vim-tmux-navigator'                   " seamless vim and tmux navigation
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 Plug 'memgraph/cypher.vim'
+Plug 'mg979/vim-visual-multi', {'tag': 'v0.5.8'}
 
 " ================= Terraform ================= "{{{
 Plug 'hashivim/vim-terraform'

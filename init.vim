@@ -46,6 +46,15 @@ Plug 'vim-syntastic/syntastic'
 Plug 'juliosueiras/vim-terraform-completion'
 "}}}
 
+" ================= Helm ================= "{{{
+Plug 'towolf/vim-helm'
+"}}}
+
+" ================= Golang ================= "{{{
+Plug 'fatih/vim-go', {'tag': 'v1.28'}
+"}}}
+
+
 call plug#end()
 
 "}}}

@@ -58,6 +58,8 @@ To check if your current environment is correctly set up run `:CheckHealth`.
 - [ripgrep](https://github.com/BurntSushi/ripgrep)
 - [bat](https://github.com/sharkdp/bat)
 - [black](https://black.readthedocs.io/en/latest/) for python formatting
+- [terraform-ls](https://github.com/hashicorp/terraform-ls)
+- [helm-ls](https://github.com/mrjosh/helm-ls)
 
 ## Installation
 

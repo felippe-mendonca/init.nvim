@@ -39,6 +39,8 @@ Plug 'christoomey/vim-tmux-navigator'                   " seamless vim and tmux 
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 Plug 'memgraph/cypher.vim'
 Plug 'mg979/vim-visual-multi', {'tag': 'v0.5.8'}
+Plug 'neovim/nvim-lspconfig'
+Plug 'wbthomason/packer.nvim'
 
 " ================= Terraform ================= "{{{
 Plug 'hashivim/vim-terraform'
@@ -487,3 +489,7 @@ nnoremap <silent> <C-k> :TmuxNavigateUp<cr>
 source ~/.config/nvim/statusline.vim
 
 "}}}
+
+lua << EOF
+require('config')
+EOF

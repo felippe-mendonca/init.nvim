@@ -316,7 +316,7 @@ autocmd BufReadPost *
 " python renaming and folding
 augroup python
     autocmd FileType python nnoremap <leader>rn :Semshi rename <CR>
-    autocmd FileType python set foldmethod=syntax
+    autocmd FileType python set foldmethod=manual
     autocmd FileType python syn sync fromstart
     autocmd FileType python syn region foldImports start='"""' end='"""' fold keepend
 augroup end
